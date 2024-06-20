@@ -17,15 +17,17 @@ app.use(express.json())
 */
 const users = []
 
-const myFirstMiddleware = (request, reponse, nex) =>{
-    console.log('Fui chamdo')
+const myFirstMiddleware = (request, response, next) =>{
+    console.log("Fui chamdo")
 
     next()
+    console.log("Finalizamos")
 }
 
 app.use(myFirstMiddleware)
 
 app.get('/users', (request, response) => {
+    console.log("A rota foi chamada")
     return response.json({users})
 })
 
