@@ -91,10 +91,6 @@ Este projeto é uma **API de gerenciamento de usuários** simples desenvolvida c
    npm start
    ```
 
-## 📈 Demonstração
-
-Veja a aplicação em ação [aqui](#).
-
 ## ✨ Agradecimentos
 
 Agradeço a todos que contribuíram para o desenvolvimento deste projeto e à comunidade de desenvolvimento de software por seu apoio contínuo.
